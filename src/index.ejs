@@ -59,7 +59,7 @@
     {
       "imports": {
         "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
-        "@a-sinlapakorn/root-config": "https://mangob.github.io/mf-root/a-sinlapakorn-root-config-2.js",
+        "@a-sinlapakorn/root-config": "https://mangob.github.io/mf-root/a-sinlapakorn-root-config.js",
         "@a-sinlapakorn/mf-vue2": "https://mangob.github.io/mf-vue2/js/app.a1971363.js",
         "@a-sinlapakorn/mf-vue3": "https://mangob.github.io/mf-vue3/js/app.e5910933.js"
       }
@@ -82,6 +82,20 @@
   <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script>
   <% } %>
 
+  <!-- Start Single Page Apps for GitHub Pages -->
+  <script type="text/javascript">
+    (function(l) {
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) { 
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
+  <!-- End Single Page Apps for GitHub Pages -->
 </head>
 <body>
   <noscript>
