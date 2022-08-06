@@ -5,8 +5,17 @@
     }</script><link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script"><script type="systemjs-importmap">{
       "imports": {
         "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
-        "@a-sinlapakorn/root-config": "https://mangob.github.io/mf-root/a-sinlapakorn-root-config-2.js",
+        "@a-sinlapakorn/root-config": "https://mangob.github.io/mf-root/a-sinlapakorn-root-config.js",
         "@a-sinlapakorn/mf-vue2": "https://mangob.github.io/mf-vue2/js/app.a1971363.js",
         "@a-sinlapakorn/mf-vue3": "https://mangob.github.io/mf-vue3/js/app.e5910933.js"
       }
-    }</script><script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><script>System.import('@a-sinlapakorn/root-config');</script><import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full></body></html>
+    }</script><script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script><script>(function(l) {
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) { 
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))</script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><script>System.import('@a-sinlapakorn/root-config');</script><import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full></body></html>
