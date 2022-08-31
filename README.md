@@ -2,6 +2,9 @@
 This is an example micro-frontend application repository,
 For demonstrating how to use [Single-SPA](https://single-spa.js.org/) in this [article](https://medium.com/@a.sinlapakorn/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87-micro-frontends-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-single-spa-part-1-beginner-level-6644bf407d93).
 
+## Live Demo
+https://mangob.github.io/mf-root/
+
 ## Setup
 To run this project, install it locally:
 
